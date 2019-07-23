@@ -1,0 +1,90 @@
+{
+  "initialSceneId": "hallA",
+  "scenes": [
+    {
+      "id": "hallA",
+      "title": "Musée Sidi-Mohammed-ben-Abdellah",
+      "image": "360_museum.jpg",
+      "preview": "panos/up_stairs.jpg",
+      "doors": [
+        {
+          "sceneId": "lobby",
+          "location": {
+            "left": 0,
+            "top": 900
+          }
+        }
+      ],
+      "hints": [
+        {
+          "description": "Main scene",
+          "location": {
+            "left": 2250,
+            "top": 500
+          }
+        },
+        {
+          "description": "Assiette phénicienne",
+          "location": {
+            "left": 600,
+            "top": 600
+          }
+        },
+        {
+          "description": "Article 2",
+          "location": {
+            "left": 3180,
+            "top": 540
+          }
+        },
+        {
+          "description": "Lorume ipsume!",
+          "location": {
+            "left": 3580,
+            "top": 600
+          }
+        }
+      ]
+    },
+    {
+      "id": "hallB",
+      "title": "Outside",
+      "image": "panos/up_stairs.jpg",
+      "preview": "panos/hallBPreview.jpg",
+      "doors": [
+        {
+          "sceneId": "lobby",
+          "location": {
+            "left": 1100,
+            "top": 610
+          }
+        }
+      ],
+      "hints": []
+    },
+    {
+      "id": "lobby",
+      "title": "Avenue Sidi-Mohammed-ben-Abdellah",
+      "image": "360_outside.jpg",
+      "preview": "panos/up_stairs.jpg",
+      "doors": [
+        {
+          "sceneId": "hallA",
+          "location": {
+            "left": 4300,
+            "top": 610
+          }
+        }
+      ],
+      "hints": [
+        {
+          "description": "Tagine",
+          "location": {
+            "left": 3250,
+            "top": 700
+          }
+        }
+      ]
+    }
+  ]
+}
